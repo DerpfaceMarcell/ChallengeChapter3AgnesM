@@ -1,0 +1,40 @@
+img {
+  position: absolute;
+  z-index: -1;
+}
+.MainRowHead-childRequirements {
+  height: 30vh;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  margin: 10px;
+}
+.MainRowContent-childRequirements {
+  height: 65vh;
+  /* border: 2px solid whitesmoke; */
+  color: whitesmoke;
+  background-image: url("../assets/Vector\ 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: red; */
+  background-size: 100% 100%;
+}
+.border-leftsection {
+  border-right: 1px solid grey;
+}
+.border-rightsection {
+  border-left: 1px solid grey;
+}
+.border-bottomonly {
+  border-bottom: 1px solid grey;
+}
+.border-header {
+  color: orange !important;
+  width: 100%;
+  padding-top: 10px !important;
+  padding-left: 15px !important;
+}
+.border-content {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 15px;
+}

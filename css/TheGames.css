@@ -1,0 +1,37 @@
+.grid-container-TheGames {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 10%;
+  color: whitesmoke;
+}
+.grid-item-TheGames {
+  /*background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding-left: 15%;
+  font-family: "Arial";
+  letter-spacing: 0.2em;
+  /*text-align: center;
+      place-items: center; */
+}
+.carousel-control-prev {
+  margin-left: -70px;
+}
+.carousel-control-next {
+  margin-right: -70px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-control-prev-icon {
+  background-image: url("../assets/switch-prev.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/switch-next.png");
+}

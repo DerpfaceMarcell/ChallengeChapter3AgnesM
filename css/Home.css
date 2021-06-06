@@ -1,0 +1,10 @@
+/* Home */
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.btn-playnow {
+  width: 20vw;
+}

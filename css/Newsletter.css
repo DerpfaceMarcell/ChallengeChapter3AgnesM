@@ -1,0 +1,72 @@
+.MainRowContentLeft-childNewsletter {
+  height: 80vh;
+  color: whitesmoke;
+  /* border: 2px solid whitesmoke; */
+  background-image: url("../assets/Rectangle\ 4.2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: red; */
+  background-size: 100% 100%;
+}
+.btn-subscribe {
+  width: 20vw;
+}
+.MainRowContentRight-childNewsletter {
+  height: 80vh;
+  color: whitesmoke;
+  /* border: 2px solid whitesmoke; */
+}
+.Mainrow-center {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.input-textbox-email {
+  height: 45px;
+  /* border: 1px solid saddlebrown; */
+  background-color: rgb(49, 49, 49);
+  border-radius: 8px;
+  padding-top: 12px;
+}
+.newsletter_Form > div {
+  height: 3em;
+  position: relative;
+}
+.newsletter_Form input {
+  background-color: rgb(46, 46, 46);
+  color: lightgray;
+  width: 100%;
+  height: 45px;
+}
+.newsletter_Form input:focus {
+  color: orange;
+  border: unset;
+}
+.newsletter_Form input::placeholder {
+  color: orange;
+}
+.inputLabel {
+  position: absolute;
+  padding-left: 1.5rem;
+  padding-top: 0.25rem;
+  font-size: x-small;
+}
+.outlinks > img {
+  width: 4rem;
+  height: 2.6rem;
+}
+#links > a,
+#sosmed > img {
+  /* display: flex;
+  justify-content: space-around; */
+  margin: 0 10px 0 10px;
+}
+.font-bottom-nav {
+  font-size: 18px !important;
+  font-family: "Open Sans";
+  color: white;
+  text-transform: uppercase;
+}
